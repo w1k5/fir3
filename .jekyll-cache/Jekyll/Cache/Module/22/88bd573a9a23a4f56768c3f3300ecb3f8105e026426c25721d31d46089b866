@@ -1,6 +1,10 @@
-I"Î
+I"ã
 
 <div class="masthead">
+  <div class="masthead__inner-wrap" style="background-color: #761816; padding-top: 0.25em; padding-bottom: 0.25em; color: white; max-width: 100%; padding-left: 3em; padding-right: 3em; margin: 0;">
+  <p style="margin: auto;" type="left">212-202-2565 contact@123asm.com
+ </p>
+  </div>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -10,7 +14,13 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+              <a href="/fire-alarms/">Fire Alarms</a>
+            </li><li class="masthead__menu-item">
+              <a href="/security/">Security</a>
+            </li><li class="masthead__menu-item">
+              <a href="/communication/">Communication</a>
+            </li><li class="masthead__menu-item">
+              <a href="/our-company/">Our Company</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
