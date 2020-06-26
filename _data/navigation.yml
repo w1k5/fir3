@@ -2,9 +2,22 @@
 main:
   - title: "Fire Alarms"
     url: /fire-alarms/
+    sublink: true
+    subtitle: "Installations, modifications, or alterations"
+    url: /fire-alarms/installations-modifications-alterations/
+    subtitle: "Design and Engineering"
+    url: /fire-alarms/design-and-engineering/
+    subtitle: "Central Station Monitoring"
+    url: /fire-alarms/central-station/
   - title: "Security"
     url: /security/
-  - title: "Communication"
-    url: /communication/
+    sublink: false
+  - title: "Design and Engineering"
+    url: /design-and-engineering/
+    sublink: false
+  - title: "Central Station Monitoring"
+    url: /central-station-monitoring/
+    sublink: false
   - title: "Our Company"
     url: /our-company/
+    sublink: false

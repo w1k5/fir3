@@ -1,26 +1,34 @@
-I"
+I"È
 
 <div class="masthead">
   <div class="masthead__inner-wrap" style="background-color: #761816; padding-top: 0.25em; padding-bottom: 0.25em; color: white; max-width: 100%; padding-left: 3em; padding-right: 3em; margin: 0;">
-  <p style="margin: auto; margin-right:3%">(347)400-3400</p><p style="margin: auto; margin-left: 3%;">GoFireSafePro@gmail.com</p>
+  <p style="margin: auto; margin-right:3%; text-align: center;">(347)400-3400</p><p style="text-align: center; margin: auto; margin-left: 3%;">GoFireSafePro@gmail.com</p>
   </div>
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+    <div class="masthead__menu navbar">
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
           GoFireSafe.com
           
         </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/fire-alarms/">Fire Alarms</a>
-            </li><li class="masthead__menu-item">
+        <ul class="visible-links"><div class="dropdown">
+            <li class="masthead__menu-item">
+              <a href="/fire-alarms/central-station/">Fire Alarms</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div></li></div><li class="masthead__menu-item">
               <a href="/security/">Security</a>
             </li><li class="masthead__menu-item">
-              <a href="/communication/">Communication</a>
+              <a href="/design-and-engineering/">Design and Engineering</a>
+            </li><li class="masthead__menu-item">
+              <a href="/central-station-monitoring/">Central Station Monitoring</a>
             </li><li class="masthead__menu-item">
               <a href="/our-company/">Our Company</a>
-            </li></ul>
+            </li></div>
+        </ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
