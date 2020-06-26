@@ -168,7 +168,7 @@
      Priority plus navigation
      ========================================================================== */
 
-/*.greedy-nav {
+.greedy-nav {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,7 +177,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;*/
+  background: $background-color;
 
   a {
     display: block;
@@ -305,7 +305,7 @@
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
-    padding: 12px ;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
