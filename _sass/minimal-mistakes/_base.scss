@@ -2,6 +2,11 @@
    BASE ELEMENTS
    ========================================================================== */
 
+@font-face {
+     font-family: texgyreheroscn-regular;
+     src: url(/assets/fonts/texgyreheros.gyreheros-regular.otf);
+}
+
 html {
   /* sticky footer fix */
   position: relative;
@@ -12,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $global-font-family;
+  font-family: texgyreheroscn-regular;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -29,7 +34,6 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: $header-font-family;
   font-weight: bold;
 }
 

@@ -10,7 +10,7 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
+        <a class="site-title" id="red" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
@@ -21,9 +21,13 @@
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+               <a href="{{ link.subtitleurl | relative_url }}">{{ link.subtitle }}</a>
+               {%- if link.subtitle1 != false -%}
+               <a href="{{ link.subtitle1url | relative_url }}">{{ link.subtitle1 }}</a>
+               {%- endif -%}
+               {%- if link.subtitle2 != false -%}
+               <a href="{{ link.subtitle2url | relative_url }}">{{ link.subtitle2 }}</a>
+               {%- endif -%}
             </div></li></div>
             {%- endif -%}
             {%- if link.sublink == false -%}
