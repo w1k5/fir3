@@ -1,4 +1,4 @@
-I"
+I"ï
 
 <div class="masthead">
   <div class="masthead__inner-wrap" style="background-color: #761816; padding-top: 0.25em; padding-bottom: 0.25em; color: white; max-width: 100%; display: list-item; margin: 0;">
@@ -14,17 +14,13 @@
           GoFireSafe.com
           
         </a>
-        <ul class="visible-links"><div class="dropdown">
-            <li class="masthead__menu-item">
+        <ul class="visible-links"><li class="masthead__menu-item"><div class="dropdown">
               <a href="/fire-alarms/">Fire Alarms</a>
             <div class="dropdown-content">
-               <a href="/fire-alarms/installations-modifications-alterations/">Installations, modifications, or alterations</a><a href="/fire-alarms/design-and-engineering/">Design and Engineering</a><a href="/fire-alarms/central-station/">Central Station Monitoring</a></div></li></div><li class="masthead__menu-item">
-              <a href="/security/">Security</a>
-            </li><li class="masthead__menu-item">
-              <a href="/design-and-engineering/">Design and Engineering</a>
-            </li><li class="masthead__menu-item">
-              <a href="/central-station-monitoring/">Central Station Monitoring</a>
-            </li></ul>
+               <a href="/fire-alarms/installations-modifications-alterations/">Installations, modifications, or alterations</a><a href="/fire-alarms/design-and-engineering/">Design and Engineering</a><a href="/fire-alarms/central-station/">Central Station Monitoring</a></div></div><li class="masthead__menu-item"><a href="/security/">Security</a>
+            </li><li class="masthead__menu-item"><a href="/design-and-engineering/">Design and Engineering</a>
+            </li><li class="masthead__menu-item"><a href="/central-station-monitoring/">Central Station Monitoring</a>
+            </li><li class="masthead__menu-item"></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>

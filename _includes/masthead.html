@@ -16,9 +16,9 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
+          <li class="masthead__menu-item">
             {%- if link.sublink == true -%}
             <div class="dropdown">
-            <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             <div class="dropdown-content">
                <a href="{{ link.subtitleurl | relative_url }}">{{ link.subtitle }}</a>
@@ -28,10 +28,9 @@
                {%- if link.subtitle2 != false -%}
                <a href="{{ link.subtitle2url | relative_url }}">{{ link.subtitle2 }}</a>
                {%- endif -%}
-            </div></li></div>
+            </div></div>
             {%- endif -%}
             {%- if link.sublink == false -%}
-            <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
             {%- endif -%}
