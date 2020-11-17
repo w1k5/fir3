@@ -3,20 +3,33 @@ main:
   - title: "Fire Alarms"
     url: /fire-alarms/
     sublink: true
-    subtitle: "Installations, modifications, or alterations"
-    subtitleurl: /fire-alarms/installations-modifications-alterations/
+    subtitle: "Installations, alterations, modifications"
+    subtitleurl: /fire-alarms/installations-alterations-modifications/
     subtitle1: "Design and Engineering"
     subtitle1url: /fire-alarms/design-and-engineering/
-    subtitle2: "Central Station Monitoring"
+    subtitle2: "Central station monitoring"
     subtitle2url: /fire-alarms/central-station/
-  - title: "Security"
-    url: /security/
+    subtitle3: "Maintenance, inspections, and testing"
+    subtitle3url: /fire-alarms/maintenance-inspections-testing/
+    subtitle4: "Service calls and repairs"
+    subtitle4url: /fire-alarms/service-calls-and-repairs/
+  - title: "Security systems"
+    url: /security-systems/
+    sublink: true
+    subtitle: "Installations, alterations, modifications"
+    subtitleurl: /security-systems/installations-alterations-modifications/
+    subtitle1: "Custom design"
+    subtitle1url: /security-systems/custom-design/
+    subtitle2: "Central station monitoring"
+    subtitle2url: /security-systems/central-station-monitoring/
+    subtitle3: "Maintainence, Service Calls, and Repairs"
+    subtitle3url: /security-systems/maintainence-service-calls-and-repairs/
+    subtitle4: false
+  - title: "About Us"
+    url: /about-us/
     sublink: false
-  - title: "Design and Engineering"
-    url: /design-and-engineering/
+  - title: "Contact Us"
+    url: /contact-us/
     sublink: false
-  - title: "Central Station Monitoring"
-    url: /central-station-monitoring/
-    sublink: false
-  - title: "Our Company"
-    url: /our-company/
+  - title: "Testimonials"
+    url: /Testimonials/

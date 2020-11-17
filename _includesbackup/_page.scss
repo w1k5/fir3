@@ -187,8 +187,8 @@ body {
       padding-left: 1em;
       padding-right: 1em;
 
-      @include breakpoint($x-large) {
-        max-width: $x-large;
+      @include breakpoint(90%) {
+        max-width: 90%;
       }
     }
 
@@ -201,7 +201,7 @@ body {
     }
 
     .page__lead {
-      max-width: $medium;
+      max-width: 90%;
     }
 
     .page__title {
